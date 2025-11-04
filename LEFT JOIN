@@ -1,0 +1,4 @@
+SELECT emp_name, dept_name
+FROM employee
+LEFT JOIN department
+ON employee.dept_id = department.dept_id;
